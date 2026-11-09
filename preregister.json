@@ -1,0 +1,16 @@
+{
+  "experiment": "UDC-G0-v2-20261109",
+  "prospective_regression_amendment": "An independent reviewer found FP64 inclusive-edge classification changed after rotation. Preserve v1 and add 1e-9m explicit tolerance plus 65 rotations of exact-edge, inside and outside points before v2 execution.",
+  "rotated_boundary": {"angles": 65, "classifications": 195, "outside_inside_offset_metres": 0.000001, "boundary_atol_metres": 0.000000001, "max_smooth_rotation_error": 0.000000000001},
+  "author": "Francisco Angulo de Lafuente",
+  "ai_assistance": "Codex",
+  "purpose": "Synthetic engineering validation before real-city calibration",
+  "seed": 20261109,
+  "hard_reference": {"independent_algorithm": "NumPy Moller-Trumbore against two triangles", "scenes": 12, "ground_points": 8192, "sun_directions": 16, "allowed_mismatches": 0},
+  "gradient": {"parameters": 6, "central_difference_epsilon": 0.00001, "relative_tolerance": 0.0001, "absolute_tolerance": 0.0000001},
+  "edge": {"minimum_edge_distance_metres": 0.5, "tau_metres": 0.02, "maximum_error": 0.00000001},
+  "negative_controls": ["horizontal sun", "below-horizon sun", "non-finite sun", "non-positive smoothing width"],
+  "performance": {"ground_points": [16384, 65536, 262144], "sun_directions": 16, "warmup": 2, "repetitions": 5, "no_speedup_threshold": true},
+  "runtime_bound": "timeout 10m",
+  "claims_excluded": ["Radiance H1 validation", "real-city accuracy", "physical penumbra", "irradiance in W/m2", "Neuro3D superiority", "contest performance"]
+}

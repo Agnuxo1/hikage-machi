@@ -1,0 +1,13 @@
+{
+  "author": "Francisco Angulo de Lafuente",
+  "ai_assistance": "Codex; independent EGM review",
+  "updated_utc": "2026-11-09T10:58:03.505399+00:00",
+  "summary_entry_received": true,
+  "summary_entry_date": "2026-11-09",
+  "final_work_submitted": false,
+  "final_work_due_utc": "2026-12-27T14:59:00Z",
+  "implementation_scope": "Synthetic geometry foundation; full public application remains in development",
+  "radiance_validated": false,
+  "licensed_city_gtfs_data_integrated": false,
+  "judging_result": null
+}

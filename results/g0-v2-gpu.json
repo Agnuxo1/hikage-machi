@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "scope": "G0 synthetic engineering controls only",
+  "author": "Francisco Angulo de Lafuente",
+  "ai_assistance": "Codex",
+  "seed": 20261109,
+  "dtype": "float64",
+  "device": "cuda",
+  "python": "3.13.5",
+  "numpy": "2.5.2",
+  "torch": "2.14.1+cu130",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "hard_reference": {
+    "scenes": 12,
+    "comparisons": 1572864,
+    "mismatches": 0
+  },
+  "boundary_control": {
+    "observed": [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    "passed": true,
+    "boundary_atol_metres": 1e-09,
+    "rotated_classifications": 195,
+    "max_rotated_soft_error": 6.661338147750939e-16
+  },
+  "gradient_control": {
+    "automatic": [
+      -0.00041509219556311035,
+      -0.0003509185027330864,
+      0.004510486724371307,
+      0.00660921909523568,
+      -0.0027686498260352512,
+      -0.0001848778987176185
+    ],
+    "central_finite_difference": [
+      -0.00041509219559851535,
+      -0.00035091850276308673,
+      0.004510486724482871,
+      0.006609219095274343,
+      -0.0027686498274559486,
+      -0.000184877898840724
+    ],
+    "epsilon": 1e-05,
+    "max_absolute_error": 1.4206973271424506e-12,
+    "passed": true
+  },
+  "away_from_edge_control": {
+    "margin_metres": 0.5,
+    "tau_metres": 0.02,
+    "max_absolute_error": 1.3848699964569278e-11
+  },
+  "negative_controls_rejected": 4,
+  "wait_control": {
+    "periodic_headways_minutes": [
+      10,
+      30
+    ],
+    "expected_wait_minutes": 12.5,
+    "independent_numerical_wait_minutes": 12.5,
+    "naive_mean_headway_halved_minutes": 10
+  },
+  "performance": [
+    {
+      "ground_points": 16384,
+      "sun_directions": 16,
+      "ray_queries": 262144,
+      "median_wall_seconds": 0.0006353650023811497,
+      "repetitions_seconds": [
+        0.0006403029983630404,
+        0.0006534179992740974,
+        0.0006344829962472431,
+        0.0006340019972412847,
+        0.0006353650023811497
+      ]
+    },
+    {
+      "ground_points": 65536,
+      "sun_directions": 16,
+      "ray_queries": 1048576,
+      "median_wall_seconds": 0.0010620960019878112,
+      "repetitions_seconds": [
+        0.0010692200012272224,
+        0.0010642009947332554,
+        0.0010620960019878112,
+        0.0010570469967206009,
+        0.001061034003214445
+      ]
+    },
+    {
+      "ground_points": 262144,
+      "sun_directions": 16,
+      "ray_queries": 4194304,
+      "median_wall_seconds": 0.0028634219997911714,
+      "repetitions_seconds": [
+        0.0028913339992868714,
+        0.0028667580045294017,
+        0.0028538539991131984,
+        0.0028634219997911714,
+        0.002837573003489524
+      ]
+    }
+  ],
+  "peak_cuda_allocated_bytes": 278205952,
+  "radiance_H1_validated": false,
+  "real_city_or_GTFS_data_used": false,
+  "Neuro3D_contribution_demonstrated": false,
+  "clinical_effectiveness_claimed": false,
+  "recorded_utc": "2026-11-09T10:56:59.091976+00:00",
+  "source_sha256": {
+    "run_g0.py": "807f50ef43e324f4380bc92c4be8c41182ea4397adcd11139b746ba64af3ecec",
+    "preregister.json": "c7274cbd93566562928416a3301c8c4e87371111174f5bf207f65d3ad62ade26",
+    "shade_geometry.py": "c5a1e23d7c73f11e6542d3750588f5bda40f2d730109ba4948c2cf63a5d5d8cc"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "historical_n3_signed_rank": {
+    "all_eight_signed_sums": [
+      -6,
+      0,
+      -2,
+      4,
+      -4,
+      2,
+      0,
+      6
+    ],
+    "smallest_two_sided_exact_p": 0.25,
+    "alpha005_attainable": false
+  },
+  "planning_only_sign_test_power": [
+    {
+      "independent_units": 3,
+      "one_sided_alpha": 0.025,
+      "critical_wins": null,
+      "assumed_win_probability": 0.7,
+      "power_under_assumption": 0
+    },
+    {
+      "independent_units": 3,
+      "one_sided_alpha": 0.025,
+      "critical_wins": null,
+      "assumed_win_probability": 0.8,
+      "power_under_assumption": 0
+    },
+    {
+      "independent_units": 3,
+      "one_sided_alpha": 0.025,
+      "critical_wins": null,
+      "assumed_win_probability": 0.9,
+      "power_under_assumption": 0
+    },
+    {
+      "independent_units": 7,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 7,
+      "assumed_win_probability": 0.7,
+      "power_under_assumption": 0.08235429999999996
+    },
+    {
+      "independent_units": 7,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 7,
+      "assumed_win_probability": 0.8,
+      "power_under_assumption": 0.20971520000000007
+    },
+    {
+      "independent_units": 7,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 7,
+      "assumed_win_probability": 0.9,
+      "power_under_assumption": 0.4782969000000001
+    },
+    {
+      "independent_units": 12,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 10,
+      "assumed_win_probability": 0.7,
+      "power_under_assumption": 0.2528153478549999
+    },
+    {
+      "independent_units": 12,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 10,
+      "assumed_win_probability": 0.8,
+      "power_under_assumption": 0.5583457484800002
+    },
+    {
+      "independent_units": 12,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 10,
+      "assumed_win_probability": 0.9,
+      "power_under_assumption": 0.889130022255
+    },
+    {
+      "independent_units": 20,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 15,
+      "assumed_win_probability": 0.7,
+      "power_under_assumption": 0.4163708294474812
+    },
+    {
+      "independent_units": 20,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 15,
+      "assumed_win_probability": 0.8,
+      "power_under_assumption": 0.8042077854595496
+    },
+    {
+      "independent_units": 20,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 15,
+      "assumed_win_probability": 0.9,
+      "power_under_assumption": 0.988746865835491
+    },
+    {
+      "independent_units": 24,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 18,
+      "assumed_win_probability": 0.7,
+      "power_under_assumption": 0.38858912339313806
+    },
+    {
+      "independent_units": 24,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 18,
+      "assumed_win_probability": 0.8,
+      "power_under_assumption": 0.8110710551188802
+    },
+    {
+      "independent_units": 24,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 18,
+      "assumed_win_probability": 0.9,
+      "power_under_assumption": 0.992543853061737
+    },
+    {
+      "independent_units": 30,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 21,
+      "assumed_win_probability": 0.7,
+      "power_under_assumption": 0.5888086852407218
+    },
+    {
+      "independent_units": 30,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 21,
+      "assumed_win_probability": 0.8,
+      "power_under_assumption": 0.9389128517113446
+    },
+    {
+      "independent_units": 30,
+      "one_sided_alpha": 0.025,
+      "critical_wins": 21,
+      "assumed_win_probability": 0.9,
+      "power_under_assumption": 0.9995456448850946
+    }
+  ],
+  "not_measured_effects": true,
+  "warning": "These are sign-test planning calculations under independent Bernoulli wins, not power calculations for Wilcoxon and not evidence of actual performance."
+}
