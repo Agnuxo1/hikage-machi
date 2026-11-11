@@ -12,6 +12,10 @@ Passing these controls would establish only synthetic engineering consistency. R
 
 Author: Francisco Angulo de Lafuente. AI implementation assistance: Codex. Original code is MIT licensed.
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> The rectangular shade operator and waiting-time formula provide a reusable numerical foundation for comparing bus-stop shade designs. Synthetic reference and derivative checks help identify geometric errors before more expensive city-scale evaluation. The intended benefit is better targeting of passive shade interventions and their design effort; actual heat-exposure reductions remain to be measured. See the <a href="#recorded-engineering-results">recorded controls</a>.</sub>
+<!-- impact-note:end -->
+
 ## Recorded engineering results
 
 The Urban Data Challenge 2026 summary entry was received on 9 November 2026. The completed application is a separate submission due 27 December 2026. This repository currently provides its tested geometry foundation.
