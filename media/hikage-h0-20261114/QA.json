@@ -1,0 +1,24 @@
+{
+  "hyperframes_version": "0.9.42",
+  "render_backend": "CPU / screenshot / software renderer",
+  "visual_check": {
+    "errors": 0,
+    "warnings": 0,
+    "craft_samples": 599,
+    "contrast_passed": 52
+  },
+  "source_after_visual_check": "Audio gain only changed by -3dB to correct mono-to-stereo loudness; visual stream copied unchanged.",
+  "final_lint": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "decoded_frames_reviewed": [
+    7.8,
+    26.1,
+    46,
+    67.2
+  ],
+  "synthetic_voice_disclosure": "Visible in all four scenes; author verified correction of the review finding.",
+  "independent_video_review_scope": "Narration/spec/HTML only; not listening, frame or external-inventory review.",
+  "audio_listening": "not subjectively heard; waveform/loudness/Whisper CPU proxy checked"
+}

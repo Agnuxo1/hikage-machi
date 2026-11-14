@@ -1,0 +1,11 @@
+{
+  "finding": "Mono narration was duplicated to stereo by the render mixer, increasing integrated loudness by3dB.",
+  "measured_initial_LUFS": -13.38,
+  "narration_source_LUFS": -16.39,
+  "gain_db": -3,
+  "composition_data_volume": 0.707945784,
+  "video_stream": "copied without re-encoding",
+  "initial_render_preserved": "render-initial-mono-duplication.mp4",
+  "final_file": "hikage-h0-scientific-kokoro-20261114.mp4",
+  "source_change": "audio gain only; visual source, timing and frames unchanged"
+}

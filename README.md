@@ -44,6 +44,12 @@ The source-specific CityGML README explicitly offers CC BY 4.0, which is selecte
 
 An independent reviewer recomputed CSV counts, source hashes, GTFS relationships and service dates, and sampled 315 buildings with a separate XML parser. No material discrepancy was found within that scope. [Review scope](h0/INDEPENDENT_REVIEW.md).
 
+### Research update video
+
+[![Hikage-machi H0 scientific research update](media/hikage-h0-20261114/thumbnail.png)](https://youtu.be/yEJkuDDHtFI)
+
+[Watch the published79-second update](https://youtu.be/yEJkuDDHtFI), with local Kokoro synthetic narration, English subtitles and the evidence limits. [Editable HyperFrames source and technical QA](media/hikage-h0-20261114/). The [compressed building extents and stop-coordinate derivatives](h0/derived/) are published under their source CC BY4.0licence. This remains a research-progress update, not a final contest delivery.
+
 ### Reproduce H0
 
 Use Python 3.13 and the separate [H0 requirements](h0/requirements.txt). The command below creates a new work directory, copies the pinned source snapshot, downloads the one large official geometry archive, and executes the inventory and checks. Allow several minutes and at least 14 GiB of free disk. Existing work directories are refused; failed or partial downloads must be inspected before retrying.

@@ -1,0 +1,31 @@
+{
+  "timing": "Whisper word timestamps on rendered narration waveform",
+  "cues": 18,
+  "edits": [
+    {
+      "asr": "Hiccupchai",
+      "caption": "Hikage-machi",
+      "start": 0.0,
+      "end": 1.12
+    },
+    {
+      "asr": "day -or -and -take",
+      "caption": "data-intake",
+      "start": 7.08,
+      "end": 7.76
+    },
+    {
+      "asr": "coddled and bus",
+      "caption": "Kotoden Bus",
+      "start": 30.48,
+      "end": 31.32
+    },
+    {
+      "asr": "Francisco and Giole de la Fuente.",
+      "caption": "Francisco Angulo de Lafuente",
+      "start": 74.52,
+      "end": 76.28
+    }
+  ],
+  "scope": "Proper-name and terminology corrections against the Kokoro input script; no subjective listening claimed."
+}

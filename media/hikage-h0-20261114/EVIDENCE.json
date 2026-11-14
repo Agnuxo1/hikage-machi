@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/Agnuxo1/hikage-machi",
+  "H0_commit": "2c3f7ce2123f1924d5bc61e1aae3aa99e05bfe7c",
+  "city_inventory": "../../h0/results/CITYGML_INVENTORY.json",
+  "checks": "../../h0/results/H0_CHECKS.json",
+  "review": "../../h0/INDEPENDENT_REVIEW.md"
+}

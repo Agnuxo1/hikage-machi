@@ -1,0 +1,84 @@
+1
+00:00:00,350 --> 00:00:05,060
+Hikage-machi asks how open city data can
+support research on bus stop shade.
+
+2
+00:00:05,920 --> 00:00:09,920
+This update reports a data-intake
+milestone for Takamatsu, Japan.
+
+3
+00:00:10,860 --> 00:00:14,800
+It is an application in development, not a
+finished solar exposure tool.
+
+4
+00:00:15,920 --> 00:00:20,780
+The actual city archive contains 268,154
+
+5
+00:00:20,780 --> 00:00:23,700
+building objects with unique identifiers.
+
+6
+00:00:24,530 --> 00:00:29,180
+2,160 contain level 2 detail elements.
+
+7
+00:00:30,060 --> 00:00:35,500
+A separate Kotoden Bus timetable snapshot
+contains 658 stop records.
+
+8
+00:00:36,760 --> 00:00:39,660
+10 numerical and data consistency checks
+passed.
+
+9
+00:00:40,420 --> 00:00:44,180
+Two different counting methods agreed
+across 408 building files.
+
+10
+00:00:45,000 --> 00:00:46,800
+A separate reviewer checked source hashes,
+
+11
+00:00:47,520 --> 00:00:50,180
+timetable relationships, and a sample of
+geometry.
+
+12
+00:00:51,100 --> 00:00:54,680
+These checks establish consistency within
+their stated scope.
+
+13
+00:00:55,880 --> 00:00:58,540
+They do not establish building accuracy,
+sunlight
+
+14
+00:00:58,540 --> 00:01:01,400
+exposure, cooling effects, or energy
+savings.
+
+15
+00:01:02,300 --> 00:01:06,520
+The next research stage needs a reference
+shading calculation, dated service
+
+16
+00:01:06,520 --> 00:01:09,540
+patterns, and validation on actual bus
+stops.
+
+17
+00:01:10,260 --> 00:01:12,980
+Code, sources, and limitations are
+documented.
+
+18
+00:01:13,820 --> 00:01:16,280
+Research by Francisco Angulo de Lafuente

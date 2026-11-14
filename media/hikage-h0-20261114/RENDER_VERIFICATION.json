@@ -1,0 +1,34 @@
+{
+  "file": "hikage-h0-scientific-kokoro-20261114.mp4",
+  "sha256": "e48164a0488f364f0c9ee0863b453c21781784a85c4099be8ccaf833436688ab",
+  "bytes": 4139314,
+  "duration": 78.784,
+  "frames": 2363,
+  "width": 1920,
+  "height": 1080,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_measurements": {
+    "input_i": "-16.39",
+    "input_tp": "-4.49",
+    "input_lra": "3.00",
+    "input_thresh": "-26.73",
+    "output_i": "-15.99",
+    "output_tp": "-3.90",
+    "output_lra": "2.30",
+    "output_thresh": "-26.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "frame_decode_times": [
+    7.8,
+    15.7,
+    15.9,
+    26.1,
+    46,
+    67.2
+  ],
+  "caption_number_name_check": true,
+  "scope": "Technical file/audio validation and decoded frame extraction; subjective listening not performed."
+}

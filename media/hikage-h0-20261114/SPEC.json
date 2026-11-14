@@ -1,0 +1,51 @@
+{
+  "purpose": "Research update on H0 data intake; not final contest demo",
+  "duration": 78.766666,
+  "scenes": [
+    {
+      "id": "question",
+      "start": 0,
+      "voice_start": 0.35,
+      "voice_seconds": 14.677333333333333,
+      "duration": 15.7,
+      "text": "Hikage-machi asks how open city data can support research on bus-stop shade. This update reports a data-intake milestone for Takamatsu, Japan. It is an application in development, not a finished solar-exposure tool."
+    },
+    {
+      "id": "data",
+      "start": 15.7,
+      "voice_start": 16.05,
+      "voice_seconds": 19.797333333333334,
+      "duration": 20.8,
+      "text": "The actual city archive contains two hundred and sixty-eight thousand, one hundred and fifty-four building objects with unique identifiers. Two thousand, one hundred and sixty contain level-two detail elements. A separate Kotoden Bus timetable snapshot contains six hundred and fifty-eight stop records."
+    },
+    {
+      "id": "checks",
+      "start": 36.5,
+      "voice_start": 36.85,
+      "voice_seconds": 18.133333333333333,
+      "duration": 19.133333333333333,
+      "text": "Ten numerical and data-consistency checks passed. Two different counting methods agreed across four hundred and eight building files. A separate reviewer checked source hashes, timetable relationships, and a sample of geometry. These checks establish consistency within their stated scope."
+    },
+    {
+      "id": "limits",
+      "start": 55.633333,
+      "voice_start": 55.983333,
+      "voice_seconds": 20.629333333333335,
+      "duration": 23.133333333333333,
+      "text": "They do not establish building accuracy, sunlight exposure, cooling effects, or energy savings. The next research stage needs a reference shading calculation, dated service patterns, and validation on actual bus stops. Code, sources, and limitations are documented. Research by Francisco Angulo de Lafuente."
+    }
+  ],
+  "voice": "Kokoro local af_heart, speed0.96, CPU",
+  "model_license": "Apache-2.0; kokoro-onnx MIT",
+  "synthetic_voice_disclosed": true,
+  "music": "none",
+  "data_credits": "Takamatsu City / MLIT PLATEAU and Kotoden Bus, CC BY4.0",
+  "not_measured": [
+    "physical accuracy",
+    "sun exposure",
+    "cooling",
+    "energy/CO2/water savings",
+    "H1/H3/H4",
+    "official final submission"
+  ]
+}

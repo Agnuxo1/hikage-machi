@@ -1,0 +1,14 @@
+{
+  "BUILDINGS.csv.gz": {
+    "sha256": "23daebec153e8b61832f9c0f1b3b7002b99ebed7e32b259bb2b40476eb5edb9c",
+    "bytes": 15348685
+  },
+  "GTFS_STOPS.csv": {
+    "sha256": "8cdbf75330c173fb992f1807f9f372ee47e1a6c9f9bad8caeff7ac8777b793fc",
+    "bytes": 28353
+  },
+  "uncompressed_BUILDINGS.csv": {
+    "sha256": "8b77db51d9ecda5ddc2080340f5046abea0b8492a66031d2084ca789fb8c2ddb",
+    "bytes": 38716847
+  }
+}

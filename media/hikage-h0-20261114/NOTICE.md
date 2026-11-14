@@ -1,0 +1,1 @@
+Original film and research by Francisco Angulo de Lafuente. City data: Takamatsu City / MLIT PLATEAU and Kotoden Bus, CC BY4.0; graphic is a derived extent-centre/stop plot. Kokoro local synthetic narration: Apache-2.0 model and MIT kokoro-onnx. GSAP licence header retained; DejaVu font licence included with assets. No third-party soundtrack or person cloning.
