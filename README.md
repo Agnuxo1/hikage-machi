@@ -48,7 +48,7 @@ An independent reviewer recomputed CSV counts, source hashes, GTFS relationships
 
 [![Hikage-machi H0 scientific research update](media/hikage-h0-20261114/thumbnail.png)](https://youtu.be/yEJkuDDHtFI)
 
-[Watch the published79-second update](https://youtu.be/yEJkuDDHtFI), with local Kokoro synthetic narration, English subtitles and the evidence limits. [Editable HyperFrames source and technical QA](media/hikage-h0-20261114/). The [compressed building extents and stop-coordinate derivatives](h0/derived/) are published under their source CC BY4.0licence. This remains a research-progress update, not a final contest delivery.
+[Watch the published 79-second update](https://youtu.be/yEJkuDDHtFI), with local Kokoro synthetic narration, English subtitles and the evidence limits. [Editable HyperFrames source and technical QA](media/hikage-h0-20261114/). The [compressed building extents and stop-coordinate derivatives](h0/derived/) are published under their source CC BY 4.0 licence. This remains a research-progress update, not a final contest delivery.
 
 ### Reproduce H0
 
