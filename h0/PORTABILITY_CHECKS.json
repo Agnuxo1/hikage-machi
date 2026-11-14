@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "portable GTFS exactly matches recorded inventory excluding timestamp",
+    "portable two-building fixture:2objects,1LOD2",
+    "all ten verifier checks pass on positive fixture",
+    "duplicate building ID makes verifier return1",
+    "existing work directory refused with exit2"
+  ],
+  "scope": "Path/CLI acceptance on real GTFS and explicitly synthetic XML. Not a second real-city experiment."
+}

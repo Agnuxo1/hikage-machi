@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-11-14T18:37:02.795887+00:00",
+  "source_sha256": "6c2b1c419d05b9aa3a34439509a3f038a1c516603c405275f31603fdb54b2de6",
+  "source": "Kotoden Bus GTFS snapshot acquired 2026-11-10",
+  "status": "MEASURED_INVENTORY",
+  "rows": {
+    "stops": 658,
+    "routes": 22,
+    "trips": 1034,
+    "stop_times": 25248,
+    "calendar": 13,
+    "calendar_dates": 227,
+    "feed_info": 1
+  },
+  "ids": {
+    "stops": {
+      "unique": 658,
+      "empty": 0,
+      "duplicates": {}
+    },
+    "routes": {
+      "unique": 22,
+      "empty": 0,
+      "duplicates": {}
+    },
+    "trips": {
+      "unique": 1034,
+      "empty": 0,
+      "duplicates": {}
+    }
+  },
+  "reference_errors": {
+    "trip_route": 0,
+    "stop_time_trip": 0,
+    "stop_time_stop": 0,
+    "trip_service": 0
+  },
+  "claims": "Timetable metadata and counts, not observed operations or physical validation.",
+  "coordinates": {
+    "valid": 658,
+    "invalid_stop_ids": [],
+    "bounds_lat_lon": [
+      34.170487,
+      133.944808,
+      34.394489,
+      134.129121
+    ]
+  },
+  "times": {
+    "invalid_rows": [],
+    "arrivals_ge24h": 0,
+    "departures_ge24h": 0,
+    "latest_arrival_seconds": 81300,
+    "duplicate_trip_sequence_pairs": 0
+  },
+  "service_scenario": {
+    "date": "2026-11-16",
+    "agency_timezone_required": "Asia/Tokyo",
+    "active_service_ids": [
+      "00",
+      "10",
+      "11"
+    ],
+    "trips": 511,
+    "stops": 658,
+    "interpretation": "Scheduled service; actual operation unverified."
+  }
+}

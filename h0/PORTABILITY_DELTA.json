@@ -1,0 +1,32 @@
+{
+  "acquire_h0.py": {
+    "operational_source_sha256": "78299f4e5743d90b02d86f96f4eab08ac879fa318e6d654333bde0915544b0af",
+    "portable_sha256": "e37526d36b5d94d882f095863b7ae81a828706bdecfbcaa7a56fdbacd4c355a5",
+    "portable_hash_encoding": "UTF-8 with LF newlines",
+    "changes": "relative input/output paths; figure font path; CityGML source hash pinned for future reproduction; no metric or numerical algorithm changes"
+  },
+  "gtfs_inventory.py": {
+    "operational_source_sha256": "531709d6b460f96c78369ad710ac66e6c18fe35fde2162bcf14aa90ec988f6f0",
+    "portable_sha256": "df935b5e9c3eccdc411e08df0a6b6754ea02b47891f70d5db62c53251792c041",
+    "portable_hash_encoding": "UTF-8 with LF newlines",
+    "changes": "relative input/output paths; figure font path; CityGML source hash pinned for future reproduction; no metric or numerical algorithm changes"
+  },
+  "citygml_inventory.py": {
+    "operational_source_sha256": "1b8850e67fc0555339363ec4793b4d473ec2c0203055a7ce68d50309a4250833",
+    "portable_sha256": "e0e05079b7dacfbcbac22fae59c27cfebe93272aba2fa4bbc1c0586063002f83",
+    "portable_hash_encoding": "UTF-8 with LF newlines",
+    "changes": "relative input/output paths; figure font path; CityGML source hash pinned for future reproduction; no metric or numerical algorithm changes"
+  },
+  "verify_h0.py": {
+    "operational_source_sha256": "69bd52d09e7c2f8b9bbc26d72a543a247297f2aeabe0ca5280f650ae39e96042",
+    "portable_sha256": "c0a7551b986b23d2491ebc5d15590e3f0a333dcd3d9f2ca4b38ccc2844de826d",
+    "portable_hash_encoding": "UTF-8 with LF newlines",
+    "changes": "relative input/output paths; figure font path; CityGML source hash pinned for future reproduction; no metric or numerical algorithm changes"
+  },
+  "make_h0_figures.py": {
+    "operational_source_sha256": "b5943c47cbe36df8e403070d87a9db94c3c22337e8c8320c3474ae0ba8304787",
+    "portable_sha256": "a666538bdb32fb6626aabd3d195e3fbe83fd1a73ed34e03911309d497ae6797b",
+    "portable_hash_encoding": "UTF-8 with LF newlines",
+    "changes": "relative input/output paths; figure font path; CityGML source hash pinned for future reproduction; no metric or numerical algorithm changes"
+  }
+}

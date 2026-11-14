@@ -1,0 +1,11 @@
+{
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.4",
+    "lxml": "6.0.2",
+    "pyproj": "3.7.2",
+    "matplotlib": "3.10.0",
+    "Pillow": "10.4.0"
+  },
+  "scope": "H0 CPU data inventory; no new G0 or GPU run"
+}

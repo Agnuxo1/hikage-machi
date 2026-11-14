@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "independent_binary_building_count",
+      "pass": true,
+      "measured": {
+        "binary": 268154,
+        "lxml": 268154,
+        "files": 408,
+        "mismatched_files": []
+      }
+    },
+    {
+      "test": "independent_binary_part_count",
+      "pass": true,
+      "measured": {
+        "binary": 0,
+        "lxml": 0
+      }
+    },
+    {
+      "test": "building_ids_and_complete_geometry",
+      "pass": true,
+      "measured": {
+        "csv_rows": 268154,
+        "unique_ids": 268154,
+        "expected_buildings": 268154,
+        "coordinate_errors": 0,
+        "no_coordinates": 0
+      }
+    },
+    {
+      "test": "geometry_within_declared_envelopes",
+      "pass": true,
+      "measured": {
+        "outside_count": 0,
+        "examples": [],
+        "tolerance": "1e-7 in native coordinate units; numerical check only"
+      }
+    },
+    {
+      "test": "observed_crs_and_axis_order",
+      "pass": true,
+      "measured": {
+        "name": "JGD2011 + JGD2011 (vertical) height",
+        "axes": [
+          {
+            "name": "Geodetic latitude",
+            "direction": "north",
+            "unit": "degree"
+          },
+          {
+            "name": "Geodetic longitude",
+            "direction": "east",
+            "unit": "degree"
+          },
+          {
+            "name": "Gravity-related height",
+            "direction": "up",
+            "unit": "metre"
+          }
+        ]
+      }
+    },
+    {
+      "test": "independent_gtfs_row_counts",
+      "pass": true,
+      "measured": {
+        "calendar": 13,
+        "calendar_dates": 227,
+        "feed_info": 1,
+        "routes": 22,
+        "stops": 658,
+        "stop_times": 25248,
+        "trips": 1034
+      }
+    },
+    {
+      "test": "gtfs_stop_coordinates_unique_plausible",
+      "pass": true,
+      "measured": {
+        "unique": 658,
+        "rows": 658,
+        "region_test": "34<lat<35;133<lon<135"
+      }
+    },
+    {
+      "test": "agency_timezone_observed",
+      "pass": true,
+      "measured": [
+        "Asia/Tokyo"
+      ]
+    },
+    {
+      "test": "independent_calendar_scenario",
+      "pass": true,
+      "measured": {
+        "date": "2026-11-16",
+        "active": [
+          "00",
+          "10",
+          "11"
+        ],
+        "trips": 511
+      }
+    },
+    {
+      "test": "gtfs_references_and_times",
+      "pass": true,
+      "measured": {
+        "references": {
+          "trip_route": 0,
+          "stop_time_trip": 0,
+          "stop_time_stop": 0,
+          "trip_service": 0
+        },
+        "times": {
+          "invalid_rows": [],
+          "arrivals_ge24h": 0,
+          "departures_ge24h": 0,
+          "latest_arrival_seconds": 81300,
+          "duplicate_trip_sequence_pairs": 0
+        }
+      }
+    }
+  ],
+  "scope": "Numerical/data consistency only. Not ground truth, operation, shadows, H1/H3/H4 or official contest receipt."
+}

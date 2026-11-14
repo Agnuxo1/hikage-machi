@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-11-14T18:34:45.789429+00:00",
+  "status": "DOWNLOADED",
+  "source_catalogue_sha256": "f5993ad3cb49abc5f0eb024c8214f259a675f5d1c7b18b26e33261660e9aa425",
+  "citygml_url": "https://assets.cms.plateau.reearth.io/assets/f8/919edd-4961-4b84-a02d-61254c9d2d53/37201_takamatsu-shi_city_2022_citygml_4_op.zip",
+  "source_catalogue_resource_id": "50124f58-a51e-462f-8c0b-4f26d2fb9841",
+  "gtfs": {
+    "path": "source_snapshot/bus_gtfs.zip",
+    "sha256": "6c2b1c419d05b9aa3a34439509a3f038a1c516603c405275f31603fdb54b2de6",
+    "bytes": 595292,
+    "reused": true
+  },
+  "gpu": false,
+  "final_url": "https://assets.cms.plateau.reearth.io/assets/f8/919edd-4961-4b84-a02d-61254c9d2d53/37201_takamatsu-shi_city_2022_citygml_4_op.zip",
+  "http_status": 200,
+  "content_length": 821695076,
+  "etag": "\"f71ac15b49e88cabaf0fb7429889e44a\"",
+  "last_modified": "Wed, 12 Mar 2025 05:15:40 GMT",
+  "completed_utc": "2026-11-14T18:36:27.790067+00:00",
+  "citygml": {
+    "path": "data/takamatsu_2022_citygml_v4.zip",
+    "bytes": 821695076,
+    "sha256": "d44976d25c155f78f5090dc8cd1014f816ca03c46e761c9fa8c37d8c39363641"
+  },
+  "elapsed_seconds": 101.99885550000181
+}
